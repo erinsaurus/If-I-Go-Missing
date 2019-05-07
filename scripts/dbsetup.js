@@ -18,3 +18,4 @@ conn.query('\
 
 console.log('Success! Database created.');
 conn.end();
+

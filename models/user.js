@@ -1,6 +1,5 @@
 var bcrypt = require('bcrypt-nodejs');
 var uuidV4 = require('uuid/v4');
-
 var db     = require('./db');
 
 // Set up User class

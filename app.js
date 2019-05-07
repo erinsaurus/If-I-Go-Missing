@@ -8,8 +8,7 @@ var logger       = require('morgan');
 var passport     = require('passport');
 var path         = require('path');
 var session      = require('express-session');
-
-var app = express();
+var app          = express();
 
 // View engine setup
 app.set('views', path.join(__dirname, 'views'));
